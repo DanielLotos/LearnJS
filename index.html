@@ -22,21 +22,21 @@
       <div class="product-header__container">
         <h2 class="product-header__title">Interesting offers</h2>
         <div class="product-header__wrapper">
-          <button data-category="popular" class="product-header__btn" >Popular</button>
-          <button data-category="trend" class="product-header__btn">Trending</button>
-          <button data-category="new" class="product-header__btn">New</button>
+          <button data-category="Bestseller" value="popular" class="product-header__btn">Popular</button>
+          <button data-category="Recommend" class="product-header__btn">Trending</button>
+          <button data-category="New product" class="product-header__btn">New</button>
         </div>
         <form class="product-header__wrapper product-form">
           <div class="product-form__select-wrapper">
-            <select class="product-form__select" name="categories">
-              <option value="" hidden="hidden">Categories</option>
-              <option value="Electronics">Electronics</option>
-              <option value="Appleances">Appleances</option>
-              <option value="Chilldren's goods">Chilldren's goods</option>
-              <option value="Repairs">Repairs</option>
-              <option value="Clothes">Clothes</option>
-              <option value="Footwear">Footwear</option>
-              <option value="Beauty">Beauty</option>
+            <select id="js-products-categories" class="product-form__select" name="categories">
+              <option class="product-form__option" selected value="all" hidden="hidden">Categories</option>
+              <option class="product-form__option" value="Electronics">Electronics</option>
+              <option class="product-form__option" value="Appleances">Appleances</option>
+              <option class="product-form__option" value="Chilldren's goods">Chilldren's goods</option>
+              <option class="product-form__option" value="Repairs">Repairs</option>
+              <option class="product-form__option" value="Clothes">Clothes</option>
+              <option class="product-form__option" value="Footwear">Footwear</option>
+              <option class="product-form__option" value="Beauty">Beauty</option>
             </select>
           </div>
           <div class="product-form__select-wrapper">
